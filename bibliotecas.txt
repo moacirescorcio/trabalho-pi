@@ -1,0 +1,3 @@
+cheerio
+fs
+readline-sync
