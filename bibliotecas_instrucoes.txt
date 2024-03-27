@@ -1,0 +1,26 @@
+Instalar as bibliotecas:
+cheerio
+fs
+readline-sync
+
+Instruções de execução:
+
+> As páginas precisam estar na mesma pasta juntamente ao programa, para que ele as localize corretamente.
+> Ao iniciar, programa pede que digite o termo a ser pesquisado.
+> São exibidas as informações.
+> O resultado é salvo somente após o encerramento do programa.
+> A cada salvamento, os dados são colocados no lugar do anterior no arquivo detalhes_paginas.txt.
+
+Instruções para alterar os valores de teste:
+
+Página inicial: Alterar linha 95.
+
+Pontos por Tag: Alterar linhas 52 a 57.
+
+Pontos por ocorrência do termo buscado: Na linha 47, alterar o valor numérico (por padrão, 5).
+
+Pontos por Frescor: Na linha 76, alterar o valor que por padrão é "30" para mudar os pontos ganhos por frescor. Ou, se quiser mudar os pontos que serão perdidos, alterar o valor "5" da expressão. 
+
+Pontos perdidos por autoreferência: Alterar valor numérico na linha 131, (por padrão, 20).
+
+Pontos ganhos por autoridade: Alterar valor numérico nas linhas 139, 157 e 185 (por padrão, 20).
